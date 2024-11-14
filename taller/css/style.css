@@ -1,0 +1,463 @@
+body {
+    margin: 0rem;
+    padding: 0rem;
+    min-width: 100%;
+    box-sizing: border-box;
+    overflow-x: hidden;
+    background-color: black;
+
+
+}
+
+
+h2 {
+    font-size: 2.4rem;
+    line-height: 1;
+    text-align: center;
+
+}
+
+.main-content {
+    background-size: cover;
+    background-position: center;
+    background-image: url(../iloveimg-compressed/carro.jpg);
+    /* height: 50rem; */
+    min-width: 100%;
+
+}
+
+.hd-header {
+    height: 10rem;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    /* background-color: red;    */
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.25);
+    text-align: center;
+}
+
+.hd-header h1 {
+    font-size: 2.25rem;
+    line-height: 2.5rem;
+}
+
+.hd-links {
+    display: flex;
+    align-items: center;
+    width: 14rem;
+    justify-content: space-around;
+    /* height: 8rem; */
+    flex-wrap: wrap;
+    padding: 0;
+    margin: 0;
+
+}
+
+.hd-header a {
+    color: white;
+    /* color: #2563eb; */
+
+}
+
+.enlaces-main {
+    display: flex;
+    flex-direction: column;
+    color: white;
+    text-decoration: none;
+
+}
+
+.enlaces-main a:hover {
+    color: #fb923c;
+
+}
+
+.st-segundoTitulo {
+    color: white;
+    text-align: center;
+    margin-top: 8rem;
+    /* padding: 8rem; */
+    min-width: 100%;
+    padding-top: 10.7rem;
+    padding-bottom: 10.7rem;
+    color: white;
+}
+
+.st-segundoTitulo p {
+    font-size: 1.875rem;
+    line-height: 2.25rem;
+}
+
+.st-segundoTitulo h2 {
+    margin-bottom: 2.25rem;
+
+}
+
+.st-boton {
+    background-color: #2563eb;
+    height: 3.5rem;
+    min-width: 11rem;
+    max-width: 11rem;
+    color: white;
+    border-radius: 1.5rem;
+}
+
+.st-boton:hover {
+    background-color: #0b3591;
+}
+
+.section-inicio {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    justify-content: flex-start;
+    padding-bottom: 1.5rem;
+    width: 100%;
+}
+
+/* PARTE DE SERVICIOS */
+
+.main-servicios {
+    background-color: black;
+    padding-top: 2.5rem;
+    padding-bottom: 2.5rem;
+    color: white;
+    text-align: center;
+    min-width: 100%;
+}
+
+.main-content h2 {
+    text-align: center;
+
+}
+
+.sr-section {
+    margin-bottom: 6rem;
+    display: flex;
+    flex-direction: column;
+    flex-direction: column;
+    align-items: center;
+    min-width: 100%;
+}
+
+.card {
+    /* width: 18rem; */
+    max-width: 18rem;
+    min-height: 15rem;
+
+    background-color: #111827;
+    color: white;
+    border-radius: .5rem;
+    border: solid #fb923c 2px;
+    border-top: solid #fb923c 4px;
+    text-align: center;
+    margin-top: 2.5rem;
+    margin-bottom: 2.5rem;
+    font-size: 1.5rem;
+    line-height: 1.5rem;
+
+}
+
+.cd-titulo-icon {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    justify-content: center;
+    /* padding-right: 1.5rem; */
+    padding-top: 1rem;
+    /* background-color: red; */
+}
+
+.card .fa-solid {
+    margin-bottom: 1rem;
+    margin-right: .5rem;
+    color: #fb923c;
+
+
+}
+
+.sr-section h3 {
+    margin-bottom: 2rem;
+    margin-top: 1rem;
+    font-weight: bold;
+}
+
+/* PARTE DE PREGUNTAS FRECUENTES */
+.main-preguntas {
+    color: #2563eb;
+
+}
+
+.main-preguntas p {
+    color: white;
+}
+
+.section-preguntas {
+    font-size: 1.2rem;
+    line-height: 1.75rem;
+    /* color: #2563eb; */
+
+}
+
+.art-linea-separadora {
+    height: .25rem;
+    width: 100%;
+    background-color: gray;
+}
+
+.st-articulo-preguntas p {
+    font-size: 1.08rem;
+}
+
+.art-titulo-icon {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.art-titulo-icon:hover {
+    color: #fb923c;
+    text-decoration: underline;
+}
+
+/* PARTE DE CONTACTO */
+.main-contacto {
+    background-color: #dbeafe;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    min-height: 10rem;
+}
+
+.articulosCON {
+    display: flex;
+    align-items: start;
+    justify-content: center;
+    margin-bottom: 1rem;
+
+}
+
+.articulosCON .fa-solid {
+    color: #fb923c;
+}
+
+.articulosCON a {
+    text-decoration: none;
+    color: black;
+    margin-left: .2rem;
+}
+
+
+/*MEDIA QUERYS*/
+
+@media (min-width:768px) {
+    .hd-header {
+        flex-wrap: wrap;
+        padding-top: 3rem;
+        height: 2rem;
+    }
+
+    .hd-links {
+        flex-wrap: wrap;
+        /* min-width: 20rem; */
+    }
+
+}
+
+@media (min-width:1024px) {
+    .sr-section {
+        flex-direction: row;
+        justify-content: space-around;
+    }
+
+    .section-preguntas {
+        max-width: 768px;
+        display: flex;
+        flex-direction: column;
+        margin-left: 10rem;
+        line-height: 1.5rem;
+    }
+
+    .st-articulo-contactos {
+        display: flex;
+        justify-content: space-around;
+        text-align: center;
+        align-items: center;
+    }
+
+    .art-direccion {
+        max-width: 20rem;
+    }
+
+    .enlaces-main {
+        flex-direction: row;
+        align-items: center;
+    }
+}
+
+
+/* PARTE DE MODALAES */
+.modal {
+    width: 100%;
+}
+
+.tarjeta {
+
+    border-radius: .5rem;
+    border: solid #fb923c 3px;
+    border-top: solid #fb923c 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    margin-bottom: 2rem;
+    min-width: 300px;
+    height: 25rem;
+    box-shadow: 1px 10px 20px .1px #fb923c;
+
+}
+
+.tarjeta h2 {
+    font-size: 1.7rem;
+}
+
+
+.articulo {
+    display: flex;
+
+    margin-bottom: 1rem;
+    text-align: center;
+    flex-direction: column;
+    align-items: center;
+    height: 100%;
+    
+
+}
+
+.abrirPrincipal {
+    background-color: blue;
+    color: white;
+    /* width: 20%; */
+    min-width: 20%;
+    border: 0;
+    height: 2rem;
+    border-radius: 0.5rem;
+    /* margin-top: 8rem; */
+    /* margin-bottom: .5rem; */
+}
+
+.abrirPrincipal:hover {
+    background-color:blue;
+    box-shadow: -1px 5px 20px 6px #0b3591;
+}
+
+.imagen img {
+    min-width: 15rem;
+    height: 16rem;
+    padding: 0;
+    margin: 0;
+
+}
+
+.imagenM {
+    height: 17rem;
+    /* background-color: red; */
+}
+
+.imagenM img {
+    height: 18rem;
+    width: 80%;
+
+}
+
+.content-cerrarTodo {
+    width: 100%;
+    /* background-color: red; */
+    display: flex;
+    justify-content: end;
+}
+
+.cerrarTodo {
+    background-color: white;
+    border: none;
+
+}
+
+.cerrarTodo:hover {
+    border: solid black 2px;
+
+}
+
+button a {
+    cursor: pointer;
+}
+
+/* COLOCAR FILTRO AL ABRIR MODAL */
+
+.modal::backdrop {
+    background-color: black;
+    opacity: 75%;
+
+
+}
+
+/*¨MEDIA QUERY DE MODALES*/
+
+@media (min-width:900px) {
+    .articulo {
+        flex-direction: row;
+        justify-content: space-around;
+    }
+
+    .tarjeta {
+        max-width: 25rem;
+        height: 27rem;
+    }
+
+    .modal {
+        max-width: 25rem;
+        height: 27rem;
+        align-items: center;
+    }
+}
+
+.body-galeria {
+    background-image: url(https://img.freepik.com/foto-gratis/carreras-autos-deportivos-traves-ia-generativa-movimiento-borroso-oscuro_188544-12490.jpg);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    height: 100%;
+    /* height: 44.4rem; */
+    background-repeat: no-repeat;
+    padding-top: .055rem;
+
+}
+
+.body-galeria::before {
+    content: "";
+    position: absolute;
+    background-color: rgba(0, 0, 0, .70);
+    inset: 0;
+
+}
+
+.main-galeria-modales {
+    position: relative;
+    color: white;
+
+}
+
+/* creditos footer */
+.footer-credits {
+    color: white;
+
+    background-color: #2563eb;
+    margin: 0;
+    height: 5rem;
+    text-align: center;
+    padding-top: 2rem;
+}
