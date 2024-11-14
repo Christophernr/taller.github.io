@@ -187,7 +187,7 @@ h2 {
 
 /* PARTE DE PREGUNTAS FRECUENTES */
 .main-preguntas {
-    color: #2563eb;
+    color: white;
 
 }
 
@@ -220,7 +220,7 @@ h2 {
 }
 
 .art-titulo-icon:hover {
-    color: #fb923c;
+    color: #2563eb;
     text-decoration: underline;
 }
 
